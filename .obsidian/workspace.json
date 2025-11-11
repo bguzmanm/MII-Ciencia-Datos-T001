@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4df503cc4f74bf3c",
+        "id": "1d385dc825cc5ac8",
         "type": "tabs",
         "children": [
           {
-            "id": "af3751cb5351a29a",
+            "id": "6736221839feebcb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trabajo de Investigación.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Trabajo de Investigación"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trabajo de Investigación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Trabajo de Investigación"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trabajo de Investigación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Trabajo de Investigación"
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trabajo de Investigación.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Trabajo de Investigación"
+              "title": "Esquema"
             }
           },
           {
@@ -194,13 +187,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af3751cb5351a29a",
+  "active": "6736221839feebcb",
   "lastOpenFiles": [
+    "README.md",
+    "Enunciado.md",
     "material/Investigaciones importantes.md",
+    "material/Porque elegimos este trabajo?.md",
     "Trabajo de Investigación.md",
     "material",
-    "material/Porque elegimos este trabajo?.md",
-    "Enunciado.md",
     "assets/Evaluacion - Introducción a la Ciencia de Datos.pdf",
     "assets"
   ]
