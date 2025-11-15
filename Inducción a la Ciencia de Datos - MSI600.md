@@ -1,22 +1,3 @@
-
-
-
-
-
-
-Universidad Nacional Andres Bello
-Magister Ingeniería Informática
-**Participantes:**
-- Eric Silva
-- Brian Guzmán
-
-
-
-
-
----
-<div style="page-break-after: always;"></div>
-
 # Introducción
 El cáncer colorrectal (CRC) es uno de los mayores retos en salud pública en todo el mundo, ya que su incidencia y mortalidad han aumentado de manera constante en los últimos años. Esta enfermedad no solo afecta profundamente la calidad de vida de quienes la padecen, sino que también representa un gran desafío para los sistemas de salud, especialmente en países como Chile, donde se están buscando formas más efectivas de detectarla y tratarla. Por esto, detectar el CRC de manera temprana resulta clave para mejorar las chances de sobrevivencia y utilizar mejor los recursos disponibles.
 
@@ -27,9 +8,7 @@ El estudio también resalta la aplicación de técnicas de ciencia de datos, com
 Para construir y validar el modelo, se realizó un análisis exhaustivo de datos clínicos retrospectivos, asegurando así que las predicciones estén basadas en evidencia sólida y respondan a las necesidades reales del sistema de salud chileno. Este enfoque que une la medicina con la ciencia de datos representa un paso adelante en el uso de tecnologías para mejorar el diagnóstico en el área de salud pública.
 
 En resumen, este informe tiene como fin examinar en detalle el modelo predictivo basado en síntomas del estudio, evaluar su método, sus resultados y el impacto que podría tener en el sistema de salud. Con ello, se espera contribuir a que cada vez más se utilicen soluciones prácticas de la ciencia de datos en salud, promoviendo estrategias que faciliten la detección temprana de enfermedades tan importantes como el cáncer colorrectal.
-<div style="page-break-after: always;"></div>
 
----
 # Objetivos
 ## Objetivo General
 Desarrollar y validar un modelo predictivo basado en síntomas clínicos para el diagnostico temprano del cáncer colorrectal en pacientes derivados para colonoscopía, optimizando la priorización de procedimientos según las directrices de la política pública en salud.
@@ -68,8 +47,15 @@ En definitiva, este modelo ayudaría a los médicos a tomar mejores decisiones s
 ## Limitaciones y dificultades identificadas
 ## Propuestas de mejora o futuros desarrollos
 # Conclusiones
+Uno de los aprendizajes más importantes de este estudio es que el cáncer colorrectal sigue siendo un problema serio para la salud pública, y para abordarlo de manera efectiva es fundamental contar con herramientas que ayuden a detectarlo a tiempo. El desarrollo de un modelo predictivo basado en los síntomas que presentan los pacientes demuestra que es posible mejorar considerablemente la identificación de quienes realmente tienen riesgo de esta enfermedad, lo que puede marcar una gran diferencia en su tratamiento y pronóstico.
+
+Además, se reafirma que técnicas como la regresión logística y el análisis ROC son muy útiles para crear modelos confiables en el ámbito médico. Estos métodos permiten no solo construir un modelo sólido, sino también validar que realmente funcione para diferenciar entre quienes necesitan una atención prioritaria y quienes no, mejorando así la eficiencia en la toma de decisiones clínicas.
+El estudio también enseñó que basarse en datos locales y la realidad específica del sistema de salud chileno es clave para que las soluciones sean efectivas. No todos los contextos son iguales, por lo que adaptar los modelos a las condiciones y políticas vigentes asegura que tengan un impacto real y útil.
+Como recomendación principal, se sugiere implementar este modelo predictivo en la práctica diaria de los profesionales de salud para que puedan usarlo como una herramienta que los ayude a decidir cuándo priorizar una colonoscopía. Además, es fundamental que los médicos y el personal sanitario reciban capacitación para entender y aplicar correctamente el modelo, asegurando así que tenga el mayor beneficio posible.
+
+También se recomienda mantener un seguimiento constante del modelo, actualizándolo con nuevos datos conforme se vayan obteniendo, para conservar su precisión y adecuación con el paso del tiempo. Finalmente, este estudio invita a seguir promoviendo la integración de la ciencia de datos en otras áreas de la salud pública, fomentando una colaboración cercana entre investigadores, clínicos y autoridades sanitarias para mejorar la atención y el diagnóstico de enfermedades.
 # Referencia bibliográfica
-- Benavides, C., & Alvarado, J. (2025). Modelo predictivo basado en síntomas para el diagnóstico de cáncer colorrectal: Optimización según las directrices de la política pública de salud chilena. _Revista Médica De Chile_, _153_(03). Recuperado a partir de https://revistamedicadechile.cl/index.php/rmedica/article/view/10992
+- Benavides, C., & Alvarado, J. (2025). Modelo predictivo basado en síntomas para el diagnóstico de cáncer colorrectal: Optimización según las directrices de la política pública de salud chilena. _Revista Médica De Chile_, _153_(03) [citado en Abr 4, 2023]. Recuperado a partir de https://revistamedicadechile.cl/index.php/rmedica/article/view/10992
 - WHO. Colorectal cancer – IARC. [citado en May 14, 2023]. Recuperado a partir de: https://www.iarc.who.int/cancer-type/colorectal-cancer/
 - Colorectal cancer trends in Chile: A Latin-American country with marked socioeconomic inequities PLOS ONE. [citado en May 14, 2023]. Recuperado a partir de: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271929
 - Cancer today. [citado en August 9, 2022]. Recuperado a partir de: http://gco.iarc.fr/today/home
