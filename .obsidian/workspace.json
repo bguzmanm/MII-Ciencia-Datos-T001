@@ -20,6 +20,30 @@
               "icon": "lucide-file",
               "title": "Inducción a la Ciencia de Datos - MSI600"
             }
+          },
+          {
+            "id": "5f60ff7da5cfc2df",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "assets/Evaluacion - Introducción a la Ciencia de Datos.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Evaluacion - Introducción a la Ciencia de Datos"
+            }
+          },
+          {
+            "id": "681612b107ad0afb",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "assets/5.+AI+10992+-+Benavides04+(1) (1).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "5.+AI+10992+-+Benavides04+(1) (1)"
+            }
           }
         ]
       }
@@ -78,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "01e01f10c8df715a",
@@ -196,14 +221,16 @@
   },
   "active": "aaff379108d0120f",
   "lastOpenFiles": [
-    "logo-unab-H.png",
-    "Inducción a la Ciencia de Datos - MSI600.md",
-    "CNA.png",
-    "Enunciado.md",
     "assets/Evaluacion - Introducción a la Ciencia de Datos.pdf",
+    "Inducción a la Ciencia de Datos - MSI600.md",
+    "assets/5.+AI+10992+-+Benavides04+(1) (1).pdf",
+    "Publicación en revista médica de Chile.md",
     "README.md",
-    "material/Investigaciones importantes.md",
+    "Enunciado.md",
     "material/Porque elegimos este trabajo?.md",
+    "material/CNA.png",
+    "material/Investigaciones importantes.md",
+    "logo-unab-H.png",
     "material",
     "assets"
   ]
