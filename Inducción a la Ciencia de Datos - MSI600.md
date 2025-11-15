@@ -53,7 +53,12 @@ Además, para evaluar la capacidad discriminativa del modelo, se realiza un aná
 Complementariamente, el estudio calcula métricas de rendimiento clínico como sensibilidad, especificidad, valor predictivo positivo y valor predictivo negativo para cada variable significativa, lo que ayuda a interpretar la utilidad práctica del modelo en el contexto médico.
 
 ## Resultados obtenidos o beneficios esperados del problema que se abordó en la investigación seleccionada
+Los resultados del estudio muestran que el modelo predictivo basado en síntomas clínicos específicos presenta una alta capacidad para identificar pacientes con probabilidad significativa de cáncer colorrectal. Mediante el análisis estadístico y la aplicación de la regresión logística binaria, se lograron determinar las variables más predictivas, lo que permitió construir un modelo robusto que optimiza la priorización de colonoscopías.
 
+El modelo demostró un buen desempeño en términos de sensibilidad y especificidad, reflejado en un área bajo la curva ROC favorable, lo que indica que puede discriminar eficazmente entre pacientes con y sin cáncer colorrectal. Este hallazgo es clave para mejorar el uso de recursos en el sistema de salud, al reducir la realización de procedimientos innecesarios y minimizar los tiempos de espera para aquellos con mayor riesgo.
+
+Además, la implementación de este modelo puede contribuir a una detección más temprana del cáncer colorrectal, lo que, a largo plazo, se traduce en mejores resultados clínicos para los pacientes, disminución de la mortalidad asociada y optimización del gasto sanitario.
+En síntesis, los beneficios esperados incluyen una mejor eficiencia en la gestión de pacientes sintomáticos, apoyo en la toma de decisiones médicas y fortalecimiento de las políticas públicas de salud para el abordaje del cáncer colorrectal.
 
 # Discusión crítica
 ## Ventajas y beneficios observados de la aplicación.
