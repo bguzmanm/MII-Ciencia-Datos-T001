@@ -18,15 +18,15 @@ Magister Ingeniería Informática
 <div style="page-break-after: always;"></div>
 
 # Introducción
-El cáncer colorrectal (CRC) constituye uno de los principales desafíos en salud pública a nivel mundial, con una incidencia y mortalidad que han venido en aumento constante en las últimas décadas. Este tipo de cáncer afecta significativamente la calidad de vida de los pacientes y representa una carga considerable para los sistemas de salud, particularmente en países como Chile, donde las políticas públicas buscan implementar estrategias más eficaces para su detección y tratamiento. En este contexto, la detección temprana del CRC es fundamental para mejorar las tasas de supervivencia y optimizar los recursos disponibles.
+El cáncer colorrectal (CRC) es uno de los mayores retos en salud pública en todo el mundo, ya que su incidencia y mortalidad han aumentado de manera constante en los últimos años. Esta enfermedad no solo afecta profundamente la calidad de vida de quienes la padecen, sino que también representa un gran desafío para los sistemas de salud, especialmente en países como Chile, donde se están buscando formas más efectivas de detectarla y tratarla. Por esto, detectar el CRC de manera temprana resulta clave para mejorar las chances de sobrevivencia y utilizar mejor los recursos disponibles.
 
-El presente informe se fundamenta en el estudio realizado por Benavides et al. (2025), que propone un modelo predictivo basado en síntomas específicos para el diagnóstico temprano del cáncer colorrectal. Este modelo está diseñado conforme a las directrices de la política pública chilena, específicamente en el marco de las Garantías Explícitas en Salud (GES), que establecen la derivación rápida y prioritaria de pacientes con sospechas clínicas para la realización de colonoscopías en centros hospitalarios especializados. La importancia de este modelo radica en su capacidad para mejorar la priorización y eficiencia de las colonoscopías, procedimientos que, aunque imprescindibles para el diagnóstico, implican altos costos y limitaciones logísticas cuando se aplican masivamente.
+Este informe se basa en el estudio realizado por Benavides y colaboradores (2025), que presentó un modelo predictivo basado en síntomas específicos para ayudar a diagnosticar el cáncer colorrectal de forma temprana. Este modelo se ajusta a las políticas públicas chilenas, en particular a lo que establece las Garantías Explícitas en Salud (GES), las cuales obligan a derivar rápidamente a pacientes con sospechas clínicas para que se les realice una colonoscopía en hospitales especializados. La importancia de este modelo radica en que ayuda a priorizar de mejor manera estas colonoscopías, evitando hacer demasiados procedimientos costosos y difíciles de manejar masivamente.
 
-El estudio destaca el uso de técnicas de ciencia de datos, tales como regresión logística y análisis ROC, para identificar las variables clínicas más relevantes que permiten predecir con mayor exactitud la presencia de cáncer colorrectal en pacientes sintomáticos. El desarrollo de este modelo predictivo no solo permite optimizar la asignación de recursos médicos, sino que también puede contribuir a disminuir tiempos de espera y mejorar el diagnóstico oportuno.
+El estudio también resalta la aplicación de técnicas de ciencia de datos, como la regresión logística y el análisis ROC, para identificar qué síntomas clínicos son más importantes para predecir con precisión la presencia del cáncer en pacientes que presentan signos. Gracias a esta herramienta, no solo se logra mejorar la asignación de los recursos médicos, sino que también se puede reducir el tiempo de espera y conseguir diagnósticos a tiempo.
 
-La evaluación y construcción del modelo se basa en un análisis de datos clínicos retrospectivos, lo que garantiza que las predicciones se apoyen en evidencia empírica y que respondan a las necesidades específicas del sistema de salud chileno. Este enfoque integral, que combina la investigación médica con herramientas avanzadas de ciencia de datos, representa un avance significativo hacia la incorporación de soluciones tecnológicas para la mejora del diagnóstico en salud pública.
+Para construir y validar el modelo, se realizó un análisis exhaustivo de datos clínicos retrospectivos, asegurando así que las predicciones estén basadas en evidencia sólida y respondan a las necesidades reales del sistema de salud chileno. Este enfoque que une la medicina con la ciencia de datos representa un paso adelante en el uso de tecnologías para mejorar el diagnóstico en el área de salud pública.
 
-En resumen, este informe tiene como objetivo analizar detalladamente el modelo predictivo basado en síntomas propuesto en el estudio, evaluando su metodología, resultados y potencial impacto en el sistema de salud. De esta manera, se busca contribuir a la comprensión y difusión de aplicaciones prácticas de la ciencia de datos en el ámbito sanitario, promoviendo estrategias que faciliten la detección temprana de enfermedades críticas como el cáncer colorrectal.
+En resumen, este informe tiene como fin examinar en detalle el modelo predictivo basado en síntomas del estudio, evaluar su método, sus resultados y el impacto que podría tener en el sistema de salud. Con ello, se espera contribuir a que cada vez más se utilicen soluciones prácticas de la ciencia de datos en salud, promoviendo estrategias que faciliten la detección temprana de enfermedades tan importantes como el cáncer colorrectal.
 <div style="page-break-after: always;"></div>
 
 ---
@@ -53,17 +53,15 @@ Además, para evaluar la capacidad discriminativa del modelo, se realiza un aná
 Complementariamente, el estudio calcula métricas de rendimiento clínico como sensibilidad, especificidad, valor predictivo positivo y valor predictivo negativo para cada variable significativa, lo que ayuda a interpretar la utilidad práctica del modelo en el contexto médico.
 
 ## Resultados obtenidos o beneficios esperados del problema que se abordó en la investigación seleccionada
-Los resultados del estudio muestran que el modelo predictivo basado en síntomas clínicos específicos presenta una alta capacidad para identificar pacientes con probabilidad significativa de cáncer colorrectal. Mediante el análisis estadístico y la aplicación de la regresión logística binaria, se lograron determinar las variables más predictivas, lo que permitió construir un modelo robusto que optimiza la priorización de colonoscopías.
+El estudio muestra que el modelo predictivo funciona bien para identificar qué pacientes tienen más probabilidad de tener cáncer colorrectal. Usando regresión logística, se descubrió cuáles síntomas son los más importantes para hacer esta predicción.
 
-El modelo demostró un buen desempeño en términos de sensibilidad y especificidad, reflejado en un área bajo la curva ROC favorable, lo que indica que puede discriminar eficazmente entre pacientes con y sin cáncer colorrectal. Este hallazgo es clave para mejorar el uso de recursos en el sistema de salud, al reducir la realización de procedimientos innecesarios y minimizar los tiempos de espera para aquellos con mayor riesgo.
+El modelo obtuvo un AUC de 0.86 (con imágenes médicas) y 0.81 (solo con síntomas), lo que se considera un rendimiento excelente. Esto significa que puede separar correctamente a los pacientes enfermos de los sanos en la mayoría de los casos.
 
-Además, la implementación de este modelo puede contribuir a una detección más temprana del cáncer colorrectal, lo que, a largo plazo, se traduce en mejores resultados clínicos para los pacientes, disminución de la mortalidad asociada y optimización del gasto sanitario.
-En síntesis, los beneficios esperados incluyen una mejor eficiencia en la gestión de pacientes sintomáticos, apoyo en la toma de decisiones médicas y fortalecimiento de las políticas públicas de salud para el abordaje del cáncer colorrectal.
+¿Por qué es importante esto? Porque actualmente solo el 13% de los pacientes derivados a colonoscopia realmente tienen cáncer. El resto (87%) se somete al procedimiento sin necesidad. Con este modelo, se pueden priorizar mejor los casos urgentes y evitar exámenes innecesarios.
 
-# Discusión crítica
-## Ventajas y beneficios observados de la aplicación.
-## Limitaciones y dificultades identificadas
-## Propuestas de mejora o futuros desarrollos
+Los beneficios prácticos incluyen: reducir las listas de espera para pacientes de alto riesgo, detectar el cáncer en etapas más tempranas (lo que mejora la supervivencia), usar mejor los equipos y personal médico disponibles, y ahorrar recursos del sistema público que se pueden usar en otras áreas.
+
+En definitiva, este modelo ayudaría a los médicos a tomar mejores decisiones sobre a quién derivar primero, mejorando tanto la atención de los pacientes como la eficiencia del sistema GES.
 
 # Discusión crítica
 ## Ventajas y beneficios observados de la aplicación
