@@ -2,5 +2,6 @@
   "accentColor": "#fa9200",
   "interfaceFontFamily": "Lucida Grande",
   "textFontFamily": "Lato,Tahoma",
-  "monospaceFontFamily": "Cascadia Code NF"
+  "monospaceFontFamily": "Cascadia Code NF",
+  "cssTheme": "Blue Topaz"
 }

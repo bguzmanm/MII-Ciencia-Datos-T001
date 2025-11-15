@@ -1,18 +1,33 @@
 
+
+
+
+
+
 Universidad Nacional Andres Bello
 Magister Ingeniería Informática
 **Participantes:**
 - Eric Silva
 - Brian Guzmán
+
+
+
+
+
 ---
 <div style="page-break-after: always;"></div>
+
 # Introducción
+El cáncer colorrectal (CRC) constituye uno de los principales desafíos en salud pública a nivel mundial, con una incidencia y mortalidad que han venido en aumento constante en las últimas décadas. Este tipo de cáncer afecta significativamente la calidad de vida de los pacientes y representa una carga considerable para los sistemas de salud, particularmente en países como Chile, donde las políticas públicas buscan implementar estrategias más eficaces para su detección y tratamiento. En este contexto, la detección temprana del CRC es fundamental para mejorar las tasas de supervivencia y optimizar los recursos disponibles.
 
-El cáncer colorrectal (CRC) representa una importante problemática de salud pública a nivel global y nacional, evidenciando un aumento significativo en incidencia, prevalencia y mortalidad. En Chile, las políticas públicas de salud, como las Garantías Explícitas en Salud (GES), establecen la derivación rápida de pacientes con sospecha de CRC para colonoscopía en centros terciarios, buscando una detección temprana que optimice el manejo clínico.
+El presente informe se fundamenta en el estudio realizado por Benavides et al. (2025), que propone un modelo predictivo basado en síntomas específicos para el diagnóstico temprano del cáncer colorrectal. Este modelo está diseñado conforme a las directrices de la política pública chilena, específicamente en el marco de las Garantías Explícitas en Salud (GES), que establecen la derivación rápida y prioritaria de pacientes con sospechas clínicas para la realización de colonoscopías en centros hospitalarios especializados. La importancia de este modelo radica en su capacidad para mejorar la priorización y eficiencia de las colonoscopías, procedimientos que, aunque imprescindibles para el diagnóstico, implican altos costos y limitaciones logísticas cuando se aplican masivamente.
 
-El presente informe se basa en el reciente estudio de Benavides et al. (2025), que desarrolló un modelo predictivo basado en síntomas específicos para diagnosticar CRC en pacientes derivados según las directrices GES. El estudio analizó variables clínicas y de imagen, identificando aquellas con mayor capacidad predictiva para mejorar la priorización de colonoscopías, optimizando así los recursos sanitarios y contribuyendo a una atención más eficaz y oportuna.
+El estudio destaca el uso de técnicas de ciencia de datos, tales como regresión logística y análisis ROC, para identificar las variables clínicas más relevantes que permiten predecir con mayor exactitud la presencia de cáncer colorrectal en pacientes sintomáticos. El desarrollo de este modelo predictivo no solo permite optimizar la asignación de recursos médicos, sino que también puede contribuir a disminuir tiempos de espera y mejorar el diagnóstico oportuno.
 
-A lo largo de este informe se explorará la estructura del modelo predictivo, sus fundamentos estadísticos y clínicos, y su potencial aplicación en la práctica médica para abordar el desafío del diagnóstico oportuno del CRC.
+La evaluación y construcción del modelo se basa en un análisis de datos clínicos retrospectivos, lo que garantiza que las predicciones se apoyen en evidencia empírica y que respondan a las necesidades específicas del sistema de salud chileno. Este enfoque integral, que combina la investigación médica con herramientas avanzadas de ciencia de datos, representa un avance significativo hacia la incorporación de soluciones tecnológicas para la mejora del diagnóstico en salud pública.
+
+En resumen, este informe tiene como objetivo analizar detalladamente el modelo predictivo basado en síntomas propuesto en el estudio, evaluando su metodología, resultados y potencial impacto en el sistema de salud. De esta manera, se busca contribuir a la comprensión y difusión de aplicaciones prácticas de la ciencia de datos en el ámbito sanitario, promoviendo estrategias que faciliten la detección temprana de enfermedades críticas como el cáncer colorrectal.
+
 <div style="page-break-after: always;"></div>
 
 ---
