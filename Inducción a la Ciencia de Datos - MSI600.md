@@ -1,9 +1,9 @@
 # Introducción
-El cáncer colorrectal (CRC) es uno de los mayores retos en salud pública en todo el mundo, ya que su incidencia y mortalidad han aumentado de manera constante en los últimos años. Esta enfermedad no solo afecta profundamente la calidad de vida de quienes la padecen, sino que también representa un gran desafío para los sistemas de salud, especialmente en países como Chile, donde se están buscando formas más efectivas de detectarla y tratarla. Por esto, detectar el CRC de manera temprana resulta clave para mejorar las chances de sobrevivencia y utilizar mejor los recursos disponibles.
+El cáncer colorrectal (CRC) es uno de los mayores retos en salud pública en todo el mundo, ya que su incidencia y mortalidad han aumentado de manera constante en los últimos años. Esta enfermedad no solo afecta profundamente la calidad de vida de quienes la padecen, sino que también representa un gran desafío para los sistemas de salud, especialmente en países como Chile, en donde se buscan formas más efectivas de detectarla y tratarla. Por esto, detectar el CRC de manera temprana resulta clave para mejorar las chances de sobrevivencia y utilizar mejor los recursos disponibles.
 
-Este informe se basa en el estudio realizado por Benavides y colaboradores (2025), que presentó un modelo predictivo basado en síntomas específicos para ayudar a diagnosticar el cáncer colorrectal de forma temprana. Este modelo se ajusta a las políticas públicas chilenas, en particular a lo que establece las Garantías Explícitas en Salud (GES), las cuales obligan a derivar rápidamente a pacientes con sospechas clínicas para que se les realice una colonoscopía en hospitales especializados. La importancia de este modelo radica en que ayuda a priorizar de mejor manera estas colonoscopías, evitando hacer demasiados procedimientos costosos y difíciles de manejar masivamente.
+Este informe se basa en el estudio realizado por Benavides et al. (2025), que presentó un modelo predictivo basado en síntomas específicos para ayudar a diagnosticar el cáncer colorrectal de forma temprana. Este modelo se ajusta a las políticas públicas chilenas, en particular a lo que establece las Garantías Explícitas en Salud (GES), las que obligan a derivar rápidamente a pacientes con sospechas clínicas para que se les realice una colonoscopía en hospitales especializados. La importancia de este modelo radica en que ayuda a priorizar de mejor manera estas colonoscopías, evitando hacer demasiados procedimientos costosos y difíciles de manejar masivamente.
 
-El estudio también resalta la aplicación de técnicas de ciencia de datos, como la regresión logística y el análisis ROC, para identificar qué síntomas clínicos son más importantes para predecir con precisión la presencia del cáncer en pacientes que presentan signos. Gracias a esta herramienta, no solo se logra mejorar la asignación de los recursos médicos, sino que también se puede reducir el tiempo de espera y conseguir diagnósticos a tiempo.
+El estudio también destaca por la aplicación de técnicas de ciencia de datos, como la **regresión logística** y el análisis **ROC**, para identificar qué síntomas clínicos son más importantes para predecir con precisión la presencia del cáncer en pacientes que presentan signos. Gracias a esta herramienta, no solo se logra mejorar la asignación de los recursos médicos, sino que también se puede reducir el tiempo de espera y conseguir diagnósticos a tiempo.
 
 Para construir y validar el modelo, se realizó un análisis exhaustivo de datos clínicos retrospectivos, asegurando así que las predicciones estén basadas en evidencia sólida y respondan a las necesidades reales del sistema de salud chileno. Este enfoque que une la medicina con la ciencia de datos representa un paso adelante en el uso de tecnologías para mejorar el diagnóstico en el área de salud pública.
 
@@ -44,12 +44,42 @@ En definitiva, este modelo ayudaría a los médicos a tomar mejores decisiones s
 
 # Discusión crítica
 ## Ventajas y beneficios observados de la aplicación
+ Las ventajas y beneficios observados de la aplicación de la Ciencia de Datos en el contexto del modelo predictivo para el diagnóstico de cáncer colorrectal (CRC) en Chile incluyen principalmente la optimización de recursos diagnósticos y la mejora en la detección de casos. El modelo permite reducir el número de colonoscopías necesarias para detectar pacientes con cáncer, logrando una detección del 13% en una cohorte estudiada. Además, la evaluación clínica basada en síntomas y exámenes físicos cobra importancia para priorizar los pacientes en riesgo y optimizar la derivación médica. Este enfoque puede disminuir las derivaciones innecesarias, mejorar tiempos de espera y permitir una asignación más eficiente de los recursos hospitalarios.
+### Ventajas observadas
+- Mejora en la tasa de detección del cáncer colorrectal (13% en la cohorte), superior a la de programas de tamizaje tradicionales.
+- Posibilidad de reducir la cantidad de colonoscopías innecesarias mediante modelos predictivos basados en signos y síntomas.
+- Priorización clínica basada en evidencia que puede agilizar la atención a pacientes en mayor riesgo.
+- Modelo adaptable para diferentes entornos clínicos, con y sin variables de imágenes médicas.
+- Potencial reducción en tiempos y costos asociados al diagnóstico.
+
+### Beneficios generales del uso de Ciencia de Datos en salud
+- Optimización de recursos sanitarios mediante modelos predictivos.
+- Apoyo a la toma de decisiones clínicas con datos y análisis estadísticos.
+- Identificación temprana de enfermedades con mayor precisión.
+- Mejor planificación estratégica en salud pública.
+
+Estos puntos se basan en estudios y aplicaciones concretas en el ámbito de la salud pública chilena y se alinean con las políticas explícitas de salud, evidenciando un impacto positivo y tangible al aplicar técnicas de Ciencia de Datos en el diagnóstico y manejo del cáncer colorrectal 
 ## Limitaciones y dificultades identificadas
+Las limitaciones y dificultades identificadas en la aplicación de la Ciencia de Datos para el modelo predictivo del diagnóstico de cáncer colorrectal (CRC) en Chile son las siguientes:
+### Limitaciones
+- El modelo requiere validación en una cohorte independiente para confirmar su aplicabilidad práctica y validez en diferentes contextos clínicos.
+- Existen sesgos derivados de la falta de un formulario estandarizado en la derivación para colonoscopía, con información incompleta (por ejemplo, solo la mitad de los pacientes tienen datos sobre historia familiar de CRC).
+- Algunos síntomas incluidos en los criterios de derivación, como dolor abdominal, pérdida de peso o masa abdominal palpable, no se asociaron significativamente a la detección de cáncer, lo que podría indicar que no deben usarse como criterios exclusivos.
+- La derivación para colonoscopía se basa en variables clínicas reportadas electrónicamente, pero la evaluación puede no ser completamente estandarizada o exhaustiva.
+
+### Dificultades
+- La detección temprana de CRC sigue siendo un desafío; dos tercios de los pacientes fueron diagnosticados en estadios avanzados pese a la política de derivación vigente.
+- Existe riesgo de falsos negativos si se priorizan criterios estrictos que reduzcan la cantidad de colonoscopías realizadas.
+- El uso de variables de imágenes (ecografía, tomografía) mejora el modelo, pero tales recursos no siempre están disponibles en todos los centros clínicos.
+- Optimizar la asignación de colonoscopías requiere balancear sensibilidad y especificidad para minimizar tanto falsos positivos (colonoscopías innecesarias) como falsos negativos (casos perdidos).
+
+Estas limitaciones y dificultades indican la necesidad de mejorar la estandarización del proceso de derivación y realizar más estudios que validen y ajusten los modelos para su implementación efectiva en la práctica clínica y política pública de salud
 ## Propuestas de mejora o futuros desarrollos
 # Conclusiones
 Uno de los aprendizajes más importantes de este estudio es que el cáncer colorrectal sigue siendo un problema serio para la salud pública, y para abordarlo de manera efectiva es fundamental contar con herramientas que ayuden a detectarlo a tiempo. El desarrollo de un modelo predictivo basado en los síntomas que presentan los pacientes demuestra que es posible mejorar considerablemente la identificación de quienes realmente tienen riesgo de esta enfermedad, lo que puede marcar una gran diferencia en su tratamiento y pronóstico.
 
 Además, se reafirma que técnicas como la regresión logística y el análisis ROC son muy útiles para crear modelos confiables en el ámbito médico. Estos métodos permiten no solo construir un modelo sólido, sino también validar que realmente funcione para diferenciar entre quienes necesitan una atención prioritaria y quienes no, mejorando así la eficiencia en la toma de decisiones clínicas.
+
 El estudio también enseñó que basarse en datos locales y la realidad específica del sistema de salud chileno es clave para que las soluciones sean efectivas. No todos los contextos son iguales, por lo que adaptar los modelos a las condiciones y políticas vigentes asegura que tengan un impacto real y útil.
 Como recomendación principal, se sugiere implementar este modelo predictivo en la práctica diaria de los profesionales de salud para que puedan usarlo como una herramienta que los ayude a decidir cuándo priorizar una colonoscopía. Además, es fundamental que los médicos y el personal sanitario reciban capacitación para entender y aplicar correctamente el modelo, asegurando así que tenga el mayor beneficio posible.
 
