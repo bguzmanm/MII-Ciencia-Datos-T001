@@ -75,6 +75,20 @@ Las limitaciones y dificultades identificadas en la aplicación de la Ciencia de
 
 Estas limitaciones y dificultades indican la necesidad de mejorar la estandarización del proceso de derivación y realizar más estudios que validen y ajusten los modelos para su implementación efectiva en la práctica clínica y política pública de salud
 ## Propuestas de mejora o futuros desarrollos
+### Propuestas de mejora
+- Implementar un formulario estandarizado y checklist en el proceso de derivación para colonoscopía, que incluya variables clínicas adicionales relevantes como estilo de vida sedentario, índice de masa corporal, tabaquismo, diabetes, y antecedentes familiares, para mejorar la calidad y detalle de los datos recogidos.
+- Incluir pruebas de laboratorio como el test de sangre oculta en heces (FOBT) como parte del protocolo antes de la derivación para colonoscopía, ya que muestran alto valor predictivo y podrían optimizar la selección de pacientes.
+- Validar los modelos predictivos en una cohorte independiente y en distintos entornos clínicos para confirmar su aplicabilidad y ajustar su rendimiento.
+- Desarrollar versiones del modelo para distintos niveles de atención que puedan aplicar modelos con o sin variables de imágenes, adaptando la tecnología disponible en cada centro.
+- Capacitar al personal de salud para la correcta recogida de datos clínicos y la interpretación del modelo predictivo, con enfoque en priorización de pacientes de alto riesgo.
+### Futuros desarrollos
+- Integrar el modelo predictivo dentro de sistemas electrónicos de gestión hospitalaria para facilitar la evaluación automática y la toma de decisiones clínicas en tiempo real.
+- Extender el modelo incluyendo datos genéticos y moleculares para mejorar la precisión diagnóstica y el riesgo personalizado.
+- Desarrollar modelos de predicción para otras neoplasias o condiciones clínicas basados en metodologías similares.
+- Incorporar inteligencia artificial avanzada y aprendizaje automático para un análisis más profundo y dinámica actualización del modelo con datos nuevos
+- Establecer programas de monitorización continua para evaluar el impacto del uso del modelo en la reducción del diagnóstico tardío y costos asociados.
+
+Estas mejoras y desarrollos futuros permitirán optimizar el uso de los recursos sanitarios, incrementar la detección temprana de cáncer colorrectal y mejorar los resultados clínicos en la población atendida .
 # Conclusiones
 Uno de los aprendizajes más importantes de este estudio es que el cáncer colorrectal sigue siendo un problema serio para la salud pública, y para abordarlo de manera efectiva es fundamental contar con herramientas que ayuden a detectarlo a tiempo. El desarrollo de un modelo predictivo basado en los síntomas que presentan los pacientes demuestra que es posible mejorar considerablemente la identificación de quienes realmente tienen riesgo de esta enfermedad, lo que puede marcar una gran diferencia en su tratamiento y pronóstico.
 

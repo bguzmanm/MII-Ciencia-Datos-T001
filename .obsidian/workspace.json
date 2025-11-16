@@ -45,8 +45,7 @@
               "title": "5.+AI+10992+-+Benavides04+(1) (1)"
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "01e01f10c8df715a",
@@ -222,12 +222,12 @@
   "active": "aaff379108d0120f",
   "lastOpenFiles": [
     "assets/Evaluacion - Introducción a la Ciencia de Datos.pdf",
+    "assets/5.+AI+10992+-+Benavides04+(1) (1).pdf",
+    "Inducción a la Ciencia de Datos - MSI600.md",
     "material/Porque elegimos este trabajo.md",
     "material/Investigaciones importantes.md",
     "Enunciado.md",
-    "Inducción a la Ciencia de Datos - MSI600.md",
     "Inducción a la Ciencia de Datos - MSI600.html",
-    "assets/5.+AI+10992+-+Benavides04+(1) (1).pdf",
     "material/VARIOS/Limitaciones y dificultades identificadas.md",
     "material/VARIOS/Propuestas de mejora a futuros desarrollos.md",
     "material/VARIOS/Ventajas y Beneficios de las técnicas aplicadas.md",
