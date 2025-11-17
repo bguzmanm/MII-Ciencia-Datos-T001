@@ -45,20 +45,18 @@ En definitiva, este modelo ayudaría a los médicos a tomar mejores decisiones s
 # Discusión crítica
 ## Ventajas y beneficios observados de la aplicación
  Las ventajas y beneficios observados de la aplicación de la Ciencia de Datos en el contexto del modelo predictivo para el diagnóstico de cáncer colorrectal (CRC) en Chile incluyen principalmente la optimización de recursos diagnósticos y la mejora en la detección de casos. El modelo permite reducir el número de colonoscopías necesarias para detectar pacientes con cáncer, logrando una detección del 13% en una cohorte estudiada. Además, la evaluación clínica basada en síntomas y exámenes físicos cobra importancia para priorizar los pacientes en riesgo y optimizar la derivación médica. Este enfoque puede disminuir las derivaciones innecesarias, mejorar tiempos de espera y permitir una asignación más eficiente de los recursos hospitalarios.
-### Ventajas observadas
-- Mejora en la tasa de detección del cáncer colorrectal (13% en la cohorte), superior a la de programas de tamizaje tradicionales.
-- Posibilidad de reducir la cantidad de colonoscopías innecesarias mediante modelos predictivos basados en signos y síntomas.
-- Priorización clínica basada en evidencia que puede agilizar la atención a pacientes en mayor riesgo.
-- Modelo adaptable para diferentes entornos clínicos, con y sin variables de imágenes médicas.
-- Potencial reducción en tiempos y costos asociados al diagnóstico.
+ 
+ - Detección temprana y mayor tasa de diagnóstico: La aplicación del modelo permitió detectar neoplasias en el 13% de los pacientes estudiados, superando tasas típicas de programas de tamizaje poblacional. Esto indica un mejor rendimiento en la identificación de casos susceptibles de cáncer en comparación con métodos tradicionales.
+ - Optimización del uso de colonoscopías: Gracias al modelo predictivo se puede priorizar y reducir la cantidad de colonoscopías innecesarias, optimizando recursos hospitalarios escasos y costosos, lo que es crucial en sistemas públicos de salud con demanda creciente.
+ - Incorporación de variables clínicas y de imagen: El modelo incluye variables clínicas (síntomas, antecedentes) y de imágenes (ecografía, tomografía), logrando un área bajo la curva (AUC) elevada (0.86 con imágenes, 0.81 sin imágenes), que refleja alta precisión diagnóstica y flexibilidad para distintas configuraciones clínicas.
+ - Apoyo en la toma de decisiones clínicas: Provee a los médicos un instrumento objetivo basado en evidencia estadística para priorizar casos, mejorando la calidad del proceso de derivación y atención, además de reducir falsos positivos y falsos negativos.
+ - Mejora en la priorización según riesgo: Identifica variables significativas asociadas al cáncer como edad, sexo, sangrado gastrointestinal y masa palpable, lo cual permite un enfoque más dirigido que los criterios actuales que consideran todos los síntomas por igual.
+ - Reducción en tiempos de espera: La priorización adecuada de pacientes puede disminuir el tiempo entre derivación y diagnóstico efectivo, elemento clave para mejorar el pronóstico del cáncer colorrectal.
+ - Adaptabilidad a diferentes niveles de atención: El modelo puede aplicarse con o sin variables de imagen, facilitando su uso en centros con distintos niveles tecnológicos y recursos.
+ - Potencial para integración tecnológica: Puede incorporarse en sistemas electrónicos de salud para facilitar la evaluación continua y toma de decisiones en línea, aligerando la carga administrativa y clínica.
 
-### Beneficios generales del uso de Ciencia de Datos en salud
-- Optimización de recursos sanitarios mediante modelos predictivos.
-- Apoyo a la toma de decisiones clínicas con datos y análisis estadísticos.
-- Identificación temprana de enfermedades con mayor precisión.
-- Mejor planificación estratégica en salud pública.
+Este conjunto de beneficios refleja cómo la Ciencia de Datos aplicada cuidadosa y rigurosamente puede mejorar sustancialmente la gestión clínica y el impacto sanitario en un problema de alta relevancia como el cáncer colorrectal, contribuyendo a un uso más eficiente del sistema de salud y mejores resultados para los pacientes.
 
-Estos puntos se basan en estudios y aplicaciones concretas en el ámbito de la salud pública chilena y se alinean con las políticas explícitas de salud, evidenciando un impacto positivo y tangible al aplicar técnicas de Ciencia de Datos en el diagnóstico y manejo del cáncer colorrectal 
 ## Limitaciones y dificultades identificadas
 Las limitaciones y dificultades identificadas en la aplicación de la Ciencia de Datos para el modelo predictivo del diagnóstico de cáncer colorrectal (CRC) en Chile son las siguientes:
 ### Limitaciones
