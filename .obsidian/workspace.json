@@ -4,53 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "90c68a614b9e8af7",
+        "id": "0efb573301f967b4",
         "type": "tabs",
         "children": [
           {
-            "id": "4857a1d24d0de90c",
+            "id": "1b57cdb1f54df14a",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "pdf",
               "state": {
-                "aFile": ".obsidian/core-plugins.json",
-                "bFile": ".obsidian/core-plugins.json",
-                "aRef": ""
+                "file": "assets/Evaluacion - Introducción a la Ciencia de Datos.pdf"
               },
-              "icon": "diff",
-              "title": "Diff: core-plugins.json"
-            }
-          },
-          {
-            "id": "85ce1eeb7f832ada",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/plugins/obsidian-enhancing-export/textemplate/dissertation.tex",
-                "bFile": ".obsidian/plugins/obsidian-enhancing-export/textemplate/dissertation.tex",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: dissertation.tex"
-            }
-          },
-          {
-            "id": "e455cf60e2fa802f",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/core-plugins.json",
-                "bFile": ".obsidian/core-plugins.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: core-plugins.json"
+              "icon": "lucide-file-text",
+              "title": "Evaluacion - Introducción a la Ciencia de Datos"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 377.5
   },
   "right": {
     "id": "01e01f10c8df715a",
@@ -209,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 529.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,25 +193,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e455cf60e2fa802f",
+  "active": "1b57cdb1f54df14a",
   "lastOpenFiles": [
-    "material/PRESENTACION/~$cienciadedatosaplicada_investigacion.pptx",
-    "material/Investigaciones importantes.md",
-    "material/PRESENTACION/ppt3B6A.tmp",
-    "material/PRESENTACION/ppt2AD.tmp",
-    "material/Porque elegimos este trabajo.md",
-    "Enunciado.md",
-    "Introducción a la Ciencia de Datos.pdf",
-    "Inducción a la Ciencia de Datos - MSI600.md",
-    "assets/Evaluacion - Introducción a la Ciencia de Datos.pdf",
-    "assets/5.+AI+10992+-+Benavides04+(1) (1).pdf",
     "~$troducción a la Ciencia de Datos.docx",
+    "material/PRESENTACION/~$cienciadedatosaplicada_investigacion.pptx",
+    "assets/5.+AI+10992+-+Benavides04+(1) (1).pdf",
+    "Inducción a la Ciencia de Datos - MSI600.md",
+    "material/PRESENTACION/Sin nombre",
     "Introducción a la Ciencia de Datos.docx",
+    "Introducción a la Ciencia de Datos.pdf",
+    "assets/Evaluacion - Introducción a la Ciencia de Datos.pdf",
+    "material/Porque elegimos este trabajo.md",
+    "material/Investigaciones importantes.md",
+    "Enunciado.md",
     "Inducción a la Ciencia de Datos - MSI600.html",
     "material/VARIOS/Limitaciones y dificultades identificadas.md",
     "material/VARIOS/Propuestas de mejora a futuros desarrollos.md",
     "material/VARIOS/Ventajas y Beneficios de las técnicas aplicadas.md",
     "material/PRESENTACION/cienciadedatosaplicada_investigacion.pptx",
+    "material/PRESENTACION",
     "material/VARIOS/Ventajas y Beneficios.md",
     "Publicación en revista médica de Chile.md",
     "README.md",
