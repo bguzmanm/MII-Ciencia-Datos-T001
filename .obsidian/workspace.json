@@ -178,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,6 +194,7 @@
   },
   "active": "1b57cdb1f54df14a",
   "lastOpenFiles": [
+    "material/PRESENTACION/cienciadedatosaplicada_investigacion.pdf",
     "~$troducción a la Ciencia de Datos.docx",
     "material/PRESENTACION/~$cienciadedatosaplicada_investigacion.pptx",
     "assets/5.+AI+10992+-+Benavides04+(1) (1).pdf",
